@@ -16,7 +16,7 @@ public class KafkaConsumer {
 
     @KafkaListener(
             topics = "${general.kafka-topic}",
-            groupId = "midas-group-task4",
+            groupId = "midas-group-task5",
             properties = {
                     "auto.offset.reset=earliest"
             }
